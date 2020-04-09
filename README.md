@@ -1,7 +1,7 @@
 # HideMoreLess
 A Sketchup Ruby plugin to manage selective hiding in nested entity heirarchies
 
-This simple Ruby Sketchup plugin make selective hiding of groups and components not on the "ancestor tree" of the active path.
+This simple Ruby Sketchup plugin permits selective hiding of groups and components not on the "ancestor tree" of the active path (i.e the nested list of opened groups or components).
 
 ## Install
 
