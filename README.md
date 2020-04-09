@@ -5,7 +5,7 @@ This simple Ruby Sketchup plugin make selective hiding of groups and components 
 
 ## Install
 
-Just drop a copy in your Plugins folder, or if you prefer, clone this repository, then from the folder:
+Just drop [a copy](https://raw.githubusercontent.com/jdtsmith/hidemoreless/master/hide_moreless.rb) in your Plugins folder, or if you prefer, clone this repository, then from the folder:
 
 ```
 % zip -r -X ../hide_more_less.rbz *.rb
