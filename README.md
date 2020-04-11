@@ -3,6 +3,8 @@ A Sketchup Ruby plugin to manage selective hiding in nested entity heirarchies.
 
 This simple Ruby Sketchup plugin permits selective hiding of groups and components not on the "ancestor tree" of the active path (i.e the nested list of opened groups or components).
 
+![](hidemoreless.gif)
+
 ## Install
 
 Just drop [a copy](https://raw.githubusercontent.com/jdtsmith/hidemoreless/master/hide_moreless.rb) in your Plugins folder, or if you prefer, clone this repository, then from the folder:
