@@ -1,6 +1,7 @@
 FILES = hidemoreless_loader.rb hidemoreless/hml_core.rb
+VERSION := $(shell git describe --tags --abbrev=0)
 
-all: hidemoreless.rbz
+TARG := hidemoreless_$(VERSION).rbz
 
-hidemoreless.rbz: $(FILES)
+$(TARG): $(FILES)
 	zip -r -X $@ $(FILES)
